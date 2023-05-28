@@ -1,0 +1,234 @@
+header#inizio{
+    background-image: url('img/1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 40px;
+    background-color: black;
+}
+
+nav#hmw{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 40px;
+    background-color: black;
+    justify-content: right;
+}
+
+.footer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 40px;
+    background-color: black;
+    justify-content: left;
+}
+
+a{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#logo{
+    position:absolute;
+    width: 16%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 83%;
+  }
+
+#logo1{
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+.gif{
+    width: 270px;
+    margin-right: 5px;
+}
+
+label{
+    color: white;
+}
+
+.hidden{
+    display: none;
+}  
+
+.position{
+    margin-right: 1%;
+}
+
+.preferiti{
+    width: 40px;
+    height: 40px;
+}
+
+img.gif1{
+    width: 17%;
+    height: 230px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#gif_anime{
+    margin-top: 11px;
+}
+
+#clicca_index{
+display: flex;
+margin-top: 10px;
+width: 50%;
+margin-right: 10px;
+justify-content: right;
+}
+
+#clicca_hmw{
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+
+a:hover{
+    color: rgb(241, 142, 11);
+    font-size: 20px;
+    transition: transform .3s;
+}
+
+#inizio {
+    height: 500px;
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section.griglia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.griglia img {
+    border-radius: 20px;
+    height: 382px;
+    width: 192px;
+    margin-top: 10px;
+    backface-visibility: hidden;
+}
+
+.griglia img:hover {
+    transform: scale(1.03);
+    transition: transform .3s;
+    opacity: 0.3;
+}
+
+
+
+.title {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: -13%;
+    margin-left: 26px;
+}
+
+.title_naruto {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: -13%;
+    margin-left: 60px;
+}
+
+.title_op {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: -13%;
+    margin-left: 41px;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+.footer-style{
+  color: white;
+  margin-top: 20%;
+}
+
+#contenitore_gif {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    #logo {
+        font-size: 15px;
+        margin-right: 313px;
+        margin-top: 3px;
+    }
+    
+header{
+    padding: 4px;
+}
+
+    .griglia {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .title {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    
+    label{
+        margin-left: 99px;
+    }
+
+    #gif_anime{
+        width: 80px;
+    }
+
+    footer {
+      padding: 20px 0;
+    }
+  
+  }

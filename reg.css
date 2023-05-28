@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/sfondo_registrazione.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+
+  }
+
+  .container{
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  input{
+    width: 40%;
+    height: 30px;
+    border: 1px solid #d9dadc;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .username, .email, .password, .conferma_password{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 3%;
+  }
+
+  form span {
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s linear;
+}
+
+.errori label {
+    color: #d01b2d;
+}
+
+.errori span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errori input{
+    border-color: #d01b2d;
+}
+
+.login{
+  text-align: left;
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  #logo {
+      font-size: 20px;
+      margin-right: 64%;
+  }
+
+  .griglia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+
+  .footer-style {
+    font-size: 14px;
+  }
+
+ input#username{
+     margin-left: 97px;
+ }
+
+ input#email{
+  margin-left: 128px;
+}
+
+input#password{
+  margin-left: 97px;
+}
+
+}

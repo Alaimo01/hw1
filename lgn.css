@@ -1,0 +1,70 @@
+
+body{
+    background-image: url('img/sfondo_login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    margin: 0;
+    color: #070A21;
+  }
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 4px solid black;*/
+    margin-top: 7%;
+}
+
+.error{
+    display: block;
+    background-color: #e22134;
+    padding: 14px 14px 12px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+  }
+
+  form{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+  }
+
+  main{
+      text-align: center;
+      margin: 0 auto;
+      width: 30%;
+  }
+
+  .register{
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .username, .password{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input{
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  border: 1px solid #dbdcd9;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.bottone_login input:hover{
+    cursor: pointer;
+    background-color:rgb(241, 142, 11);
+  }
+

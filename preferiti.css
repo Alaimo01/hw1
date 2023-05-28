@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    background-color: rgb(231, 228, 223);
+
+}
+
+
+#logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 1.5%;
+  }
+
+a#logo{
+    color: white;
+    text-decoration: none;
+}
+
+a#logo:hover{
+    color:black;
+    font-size: 20px;
+    transition: transform .3s;
+}
+
+.spiegazione{
+    width: 20%;
+    margin-right: 40%;
+}
+
+.spiegazione h2{
+    color: white;
+}
+
+.preferiti{
+    width: 50px;
+    height: 50px;
+    margin-left: 93%;
+}
+
+.corpo{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    flex-direction:column;
+}
+
+nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 60px;
+    background: linear-gradient(90deg,#2ffd96,#ff0505);
+    justify-content: space-between;
+}
+
+.commento{
+    border: 2px solid black;
+    margin: 1%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+h2{
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .demon_slayer {
+      font-size: 16px;
+    }
+
+    .title {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    
+     .corpo2{
+        margin-left: 11px;
+     }
+
+    .commento{
+     width: 348px;
+    }
+
+    #logo{
+        margin-top: 22px;
+    }
+    
+    .spiegazione{
+        width: 1%;
+    }
+
+    .preferiti{
+        margin-left: 85%;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
